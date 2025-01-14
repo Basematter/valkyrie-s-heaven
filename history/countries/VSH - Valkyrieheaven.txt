@@ -39,3 +39,19 @@ create_country_leader = {
     picture = "gfx/leaders/VSH/Leader Portrait Background Alternate-export.dds"
     ideology = marxism
 }
+division_template = {
+    name = "National Hope Army"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 0 y = 3 }
+
+    }
+    support = {
+        artillery = { x = 0 y = 0 }
+    }
+}
+set_technology = {
+    early_bombs = 1
+}
