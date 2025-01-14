@@ -2,5 +2,5 @@ version="1.0"
 tags={
 	"Alternative History"
 }
-name="valkyrie-s-heaven"
+name="valkyriesheaven"
 supported_version="1.15.3"
