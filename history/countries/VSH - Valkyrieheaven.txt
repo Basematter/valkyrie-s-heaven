@@ -2,10 +2,10 @@ capital = 27
 
 set_stability = 0.73
 set_war_support = 0.53
-
+set_research_slots = 3
 
 set_politics = {
-    ruling_party = communism
+    ruling_party = fascism
     last_election = 1933.7.1
     election_frequency = 12
     elections_allowed = yes
@@ -28,16 +28,16 @@ set_technology = {
 }
 
 set_popularities = {
-    democratic = 7
-    communism = 63
-    fascism = 18
+    democratic = 9
+    communism = 25
+    fascism = 54
     neutrality = 12
 }
 add_political_power = 45
 create_country_leader = {
     name = VSH_leader
     picture = "gfx/leaders/VSH/Leader Portrait Background Alternate-export.dds"
-    ideology = marxism
+    ideology = Socialist_Technocracy
 }
 division_template = {
     name = "National Hope Army"
@@ -52,6 +52,12 @@ division_template = {
         artillery = { x = 0 y = 0 }
     }
 }
-set_technology = {
-    early_bombs = 1
+division_template = {
+    name = "National Dream Army"
+    regiments = { 
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        artillery_brigade = { x = 1 y = 0 }
+        artillery_brigade = { x = 1 y = 1 }
+    }
 }

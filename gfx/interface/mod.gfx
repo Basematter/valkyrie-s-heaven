@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_ideology_Technocracy_group
+		textureFile = "gfx/interface/ideologies/Sprite-0001.jpg"
+	}
+	spriteType = {
+		name = GFX_focu_speedup
+		textureFile = "gfx/speedup.dds"
+	}
+	spriteType = {
+		name = GFX_focu_1937
+		textureFile = "gfx/1937.dds"
+	}
+}
