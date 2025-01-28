@@ -1,0 +1,4 @@
+VSH = {
+	color = RGB { 139 26 26 }
+	color_ui = RGB { 139 26 26 }
+}

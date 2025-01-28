@@ -1,37 +1,27 @@
-capital = 27
+capital = 28
 
 set_stability = 0.73
 set_war_support = 0.53
 set_research_slots = 3
 
+add_ideas = {
+    VSH_War_of_Independence
+    VSH_Chaos_of_government
+}
 set_politics = {
-    ruling_party = fascism
-    last_election = 1933.7.1
+    ruling_party = Technocracy
+    last_election = 1935.7.1
     election_frequency = 12
     elections_allowed = yes
 }
-set_technology = {
-    aa_lmg = 1
-    aa_cannon_1 = 1
-    engines_1 = 1
-    engines_2 = 1
-    early_bombs = 1
-    aircraft_construction = 1
-    iw_small_airframe = 1
-    basic_small_airframe = 1
-    iw_medium_airframe = 1
-    basic_medium_airframe = 1
-    iw_large_airframe = 1
-    air_torpedoe_1 = 1
-    photo_reconnaisance = 1
-    bba_early_transport_plane = 1
-}
+
 
 set_popularities = {
     democratic = 9
-    communism = 25
-    fascism = 54
-    neutrality = 12
+    communism = 23
+    Technocracy = 54
+    neutrality = 10
+    fascism = 4
 }
 add_political_power = 45
 create_country_leader = {

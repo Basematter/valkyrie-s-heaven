@@ -1,0 +1,22 @@
+ideas = {
+	country = {
+		VSH_War_of_Independence  = {
+			picture = GFX_goal_generic_demand_territory
+			modifier = {
+				conscription_factor = -0.25
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				political_power_gain = 0.25
+			}
+		}
+		VSH_Chaos_of_government = {
+			picture = "gfx\ideas\Chaos_of_government.dds"
+			modifier = {
+				conscription_factor = -0.1
+				industrial_capacity_dockyard = -0.1
+				industrial_capacity_factory = -0.1
+				political_power_gain = -0.2
+			}
+		}
+	}
+}

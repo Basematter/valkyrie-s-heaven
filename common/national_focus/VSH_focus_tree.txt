@@ -8,55 +8,39 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = VSH_start
-		icon = GFX_goal_generic_cavalry
-		cost = 8
-		x = 8
+		id = VSH_cant_stand_it
+		icon = GFX_surrender_tiny_flag
+		cost = 7
+		x = 7
 		y = 0
-		completion_reward = {
-
-		 }
+		completion_reward = { }
 	}
 	focus = {
-		id = VSH_heart_to_heart
-		icon = GFX_goal_shine_test
-		cost = 8
-		relative_position_id = VSH_start
+		id = VSH_for_my_home
+		icon = GFX_surrender_tiny_flag
+		relative_position_id = VSH_cant_stand_it
+		cost = 7
 		x = 0
 		y = 1
 		prerequisite = {
-			focus = VSH_start
+			focus = VSH_cant_stand_it
 		}
 		completion_reward = { 
-
+			set_power_balance = {
+				id = VSH_balance
+			}
 		}
 	}
 	focus = {
-		id = VSH_1937
-		icon = GFX_focu_1937
-		relative_position_id = VSH_heart_to_heart
-		cost = x
+		id = VSH_This_is_our_territory
+		icon = GFX_surrender_tiny_flag
+		cost = 7
+		relative_position_id = VSH_for_my_home
 		x = 0
 		y = 1
 		prerequisite = {
-			focus = VSH_heart_to_heart
+			focus = VSH_for_my_home
 		}
-		completion_reward = {
-
-		 }
-	}
-	focus = {
-		id = VSH_speedup
-		icon = GFX_focu_speedup
-		relative_position_id = VSH_1937
-		cost = x
-		x = -1
-		y = 1
-		prerequisite = {
-			focus = VSH_1937
-		}
-		completion_reward = {
-
-		 }
+		completion_reward = { }
 	}
 }
