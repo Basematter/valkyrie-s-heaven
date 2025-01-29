@@ -43,4 +43,15 @@ focus_tree = {
 		}
 		completion_reward = { }
 	}
+ focus = {
+  id = 
+  icon =
+  relative_position_id = VSH_This_is_our_territory
+  x = 0
+  y = 1
+  	prerequisite = {
+			focus = VSH_This_is_our_territory
+		}
+  completion_reward = {}
+ }
 }
