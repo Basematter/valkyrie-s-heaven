@@ -13,7 +13,7 @@ VSH_balance = {
 	}
 	side = {
 		id = VSH_balance_left_side
-		icon = GFX_idea_generic_agrarian_society
+		icon = GFX_idea_generic_agrarian_society   #相对路径
 		range = {
 			id = left_side_range
 			min = -1
