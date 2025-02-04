@@ -41,7 +41,9 @@ focus_tree = {
 		prerequisite = {
 			focus = VSH_for_my_home
 		}
-		completion_reward = { }
+		completion_reward = {
+        
+     }
 	}
  focus = {
   id = 
@@ -52,6 +54,8 @@ focus_tree = {
   	prerequisite = {
 			focus = VSH_This_is_our_territory
 		}
-  completion_reward = {}
+  completion_reward = {
+      
+   }
  }
 }
